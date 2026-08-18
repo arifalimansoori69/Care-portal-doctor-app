@@ -1,0 +1,77 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f8f9fa;
+  }
+  
+  /* Header */
+  h1 span {
+    color: #007bff;
+  }
+  
+  /* Form */
+  .contact-form {
+    background: #ffffff;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .contact-form:hover {
+    transform: translateY(-3px);
+  }
+  
+  .form-input {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px 16px 12px 42px;
+    font-size: 15px;
+    transition: 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.1);
+  }
+  
+  .form-icon {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+    color: #007bff;
+    font-size: 16px;
+  }
+  
+  /* Button */
+  .btn-submit {
+    background: linear-gradient(135deg, #007bff, #0056d2);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background: linear-gradient(135deg, #0056d2, #0047b3);
+    transform: scale(1.03);
+  }
+  
+  /* Map */
+  .map-container {
+    height: 100%;
+    min-height: 480px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  /* Responsive */
+  @media (max-width: 991px) {
+    .map-container {
+      min-height: 350px;
+    }
+    .contact-form {
+      margin-bottom: 20px;
+    }
+  }
+  
